@@ -420,17 +420,20 @@ li a:hover{
   }
 ul.lower li ul.dropdown li{
     display:block;
+    
 }
 ul.lower li ul.dropdown{
-    width:100%;
+    width:180px;
+    top:65px;
     background:rgb(23, 152, 104);
     position:absolute;
-    z-index:999;
     display:none;
+    z-index:999;
+    position:absolute;
     
 
 }
-ul.lower li:hover ul.dropdown {
+ul.lower li:hover>ul.dropdown {
 display:block;
   
 
